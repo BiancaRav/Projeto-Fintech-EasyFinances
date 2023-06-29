@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+
+    <!-- Linkando o Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EasyFinances</title>
+
+<!-- Linkando CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+<!-- Linkando para CSS interna -->
+    <link rel="stylesheet" href="./assets/css/styles_cadastro.css">
+
+</head>
+    <div class="header"> 
+        <p>
+        <h2 class="nome-app">EasyFinances</h2>
+        </p>
+    </div>
+
+    <div class="caixa-texto"><h2 class="texto">Crie sua Conta</h2></div>
+    <p></p>
+
+    <!-- Formulario para cadastro do usuário -->
+    <div class="container">
+            <form id="dados" name="dados" method="post" action="" class="box-form">
+
+            <div class="box-item">
+                <label for="nome" class="form-label">Nome:</label>
+                <input type="text" id="nome" name="nome" class="form-control" required placeholder="Ex: João da Silva" minlength="10" maxlength="40" autofocus>
+            </div>
+
+            <div class="box-item">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Ex: email@email.com">
+            </div>
+
+            <div class="box-item">
+                <label for="senha" class="form-label">Senha:</label>
+                <input type="password" id="senha" name="senha" class="form-control" required placeholder="Ex: João da Silva" minlength="10" maxlength="40">
+            </div>
+
+            <div class="box-item">
+                <button class="form-btn"><b>Criar Conta</b></button>
+            </div>
+        </form>
+    </div>
+
+    <p></p>
+
+    <!-- link para acessar app sem uma conta -->
+    <div class="link">
+        <a href="./">Entrar sem uma conta</a>
+    </div>
+
+    <!-- link para voltar para pagina inicial -->
+    <div class="pagina-inicial">
+        <a href="./index.html">Voltar Para Página Principal</a>
+    </div>
+<body>
+    
+
+
+<!-- Linkando JavaScript do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

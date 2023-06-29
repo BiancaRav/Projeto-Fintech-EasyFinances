@@ -1,0 +1,78 @@
+body {
+    width: 100%;
+    background-color: rgb(233, 224, 224);
+    text-align: center;
+    line-height:10vw;
+    display: block;   
+    justify-content: center;
+}
+.header {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(141, 247, 131, 0.426);
+    border-radius: 0% 0% 50% 50%;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+.nome-app {
+    font-family: 'Playfair Display', serif;
+    font-size: 8vmin;
+    color: rgb(4, 203, 170);
+    text-align: center;
+    bottom: 50%;
+}
+.caixa-texto {
+    display: block;
+}
+.texto {
+    padding: 10%;
+    font-size: 7vmin;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.box-form {
+    width: 80%;
+    background-color: rgba(77, 196, 77, 0.136);
+    margin-left: 10%;
+}
+label {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 4vmin;
+}
+.form-control {
+    width: 70%;
+    background-color: rgba(252, 254, 254, 0.979);
+    height: 2rem;
+    margin-left: 15%;
+    border-radius: 50px;
+    padding: 2%;
+    font-family: 'Kanit', sans-serif;;
+    font-size: 0.6rem;
+}
+.form-btn {
+    width: 35%;
+    margin: 14%;
+    border: 30%;
+    background-color: rgba(40, 116, 40, 0.549);
+    color: #0e0606;
+    text-align:center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 3vmin;
+    height: 2.5rem;
+    line-height: 50%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.link {
+    margin-top: 10%;
+    font-family: 'Kanit', sans-serif;
+    font-size: 3vmin;
+}
+.pagina-inicial {
+    margin-top: 5%;
+    font-family: 'Kanit', sans-serif;
+    font-size: 3vmin;
+}
